@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Veterinaria </title>
+
+        <!-- Load external CSS styles -->
+        
+        <link rel="stylesheet" href=" Veterinaria/Botones.css">
+        <script>
+            function redireccionar(){location.href="RegistrarUsuario.html";}
+        </script>
+    </head>
+<body>
+
+    <form action="Login.php" method="post">
+        <!-- Formulario -->
+        <h1 align="center">
+            <i>Veterinaria Safety Can Plus</i></h1><hr>
+            <img src="https://www.thevetonfourth.com/wp-content/uploads/2019/06/vet-on-4th-logo.png"
+            align="right" alt="Perritos" width="500px" height="333" border="30px" style="border-radius: 30px;">
+        
+            <h2 style="font-family:Verdana;" align="center">
+                <i>LOGIN</i></h2><hr>
+            <p><strong>Ingresar Usuario</strong></p>
+            <input name="Usuario" type="text" required><br>
+            <p><strong>Ingresar Contraseña</strong></p>
+            <input name="Clave" type="password" required><br>
+            <center><input type="submit" value="INGRESAR" name="Registrar" class="btn fourth"></center>
+            <center><input type="reset" value="CANCELAR" class="btn fourth"></center>
+            <center><input type="button" value="REGISTRAR USUARIO" onclick="redireccionar()" class="btn fourth"></center><hr>
+    </form>
+    <footer>
+        <p><small>Pagina sin derechos de autor</small></p>
+    </footer>
+</body>
+</html>

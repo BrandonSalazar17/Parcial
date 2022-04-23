@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Identificación Perruna</title>
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href=" Veterinaria/Botones.css">
+        <script>
+        function redireccionar(){location.href="Login.html";}
+    </script>
+    </head>
+    <body>
+        <form action="RegistrarUsuario.php" method="POST">
+            <!-- Formulario -->
+            <h1><i>Veterinaria Safety Can Plus</i></h1><hr>
+    
+            <h2 style="font-family:Arial, Helvetica, sans-serif;" align="center">
+                <i>REGISTRO DE USUARIO</i></h2><hr>
+            <p><strong>Ingresar Usuario</strong></p>
+            <input name="Usuario" type="text" required><br>
+            <p><strong>Ingresar Contraseña(min. 8 caracteres)</strong></p>
+            <input name="Clave" type="password" ><br>
+            <center><input type="submit" value="REGISTRAR" name="Registrar" class="btn fourth"></center>
+            <center><input type="reset" value="CANCELAR" class="btn fourth"></center>
+            <center><input type="button" value="REGRESAR" onclick="redireccionar()" class="btn fourth"></center><hr>
+            <!--<a href="Cerrar_Sesion.php">Cerrar Sesion</a><hr>-->
+        </form>
+        <footer>
+            <p><small>Pagina sin derechos de autor</small></p>
+        </footer>
+    </body>
+</html>
